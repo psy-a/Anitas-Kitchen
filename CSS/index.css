@@ -19,3 +19,49 @@ header {
     margin-bottom: auto;
     padding-top: 60px;
 }
+.times {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    justify-content: stretch;
+    
+}
+.happy {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.meals {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+}
+#happy {
+    height: 50%;
+    background-color: whitesmoke;
+    text-align: center;
+    border: 1px solid black;
+
+}
+#party {
+    height: 50%;
+    background-color: #F15A29;
+    text-align: center;
+    border: black 1px solid;
+}
+#breakfast {
+    width: 33.33%;
+    border: solid 1px black;
+    
+}
+#lunch {
+    width: 33.33%;
+    border: solid 1px black;
+}
+#dinner {
+    width: 33.33%;
+    border: solid 1px black;
+}
