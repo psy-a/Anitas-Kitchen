@@ -98,3 +98,33 @@ header {
 #dinner:hover {
   background-image: url(../Images/foodtop/dinner2.jpg);
 }
+.fastfood {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+}
+
+.fastimages {
+  height: 100%;
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  border: white solid 1px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 5px lightgray ;
+}
+.fasttext {
+  display: flex;
+  flex-direction: column;
+  border: solid white 1px;
+  margin: 0 0 0 100px;
+}
+#fast1 {
+  padding: 20px 20px 0 20px;
+}
+#fast2 {
+  padding: 0 20px 20px 20px;
+}
