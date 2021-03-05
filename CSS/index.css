@@ -30,14 +30,14 @@ header {
   width: 100%;
 }
 .happy {
-  height: 210px;  
+  height: 210px;
   width: 30%;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 .meals {
-    height: 210px;
+  height: 210px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -99,32 +99,68 @@ header {
   background-image: url(../Images/foodtop/dinner2.jpg);
 }
 .fastfood {
-  margin-top: 200px;
+  margin-top: 150px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 400px;
+  height: 427px;
   width: 100%;
 }
 
 .fastimages {
   height: 100%;
-  width: 490px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   border: white solid 1px;
-  box-sizing: border-box;
-  box-shadow: 5px 5px 5px 5px lightgray ;
+  box-sizing: content-box;
+  box-shadow: 5px 5px 5px 5px lightgray;
+  margin: 0 80px 0 0;
 }
 .fasttext {
+  height: 100%;
+  width: 600px;
   display: flex;
   flex-direction: column;
   border: solid white 1px;
-  margin: 0 0 0 100px;
 }
 #fast1 {
   padding: 20px 20px 0 20px;
 }
 #fast2 {
   padding: 0 20px 20px 20px;
+}
+#title {
+  font-size: 50px;
+  color: rgb(59, 57, 57);
+}
+#tag {
+  font-size: 30px;
+  color: rgb(59, 57, 57);
+}
+#brief {
+  font-size: 25px;
+  color: rgb(59, 57, 57);
+}
+#gallery {
+  color: #f15a29;
+  border: #f15a29 1px solid;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+.foodtag {
+  height: 60px;
+}
+.foodtitle {
+  height: 100px;
+}
+.foodbrief {
+  height: 180px;
+}
+#gallery:hover {
+  background-color: #f15a29;
+  color: white;
 }
