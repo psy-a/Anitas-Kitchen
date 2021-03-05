@@ -51,7 +51,6 @@ header {
   text-align: center;
   vertical-align: middle;
   line-height: 105px;
-  border: 1px solid black;
 }
 
 #party {
@@ -62,7 +61,6 @@ header {
   text-align: center;
   vertical-align: middle;
   line-height: 105px;
-  border: black 1px solid;
 }
 #breakfast {
   background-image: url(../Images/foodtop/breakfast.jpg);
@@ -70,7 +68,6 @@ header {
   font-style: italic;
   font-size: 25px;
   width: 33.33%;
-  border: solid 1px black;
   text-align: center;
   vertical-align: middle;
   line-height: 210px;
@@ -82,7 +79,6 @@ header {
   font-style: italic;
   font-size: 25px;
   width: 33.33%;
-  border: solid 1px black;
   text-align: center;
   vertical-align: middle;
   line-height: 210px;
@@ -94,7 +90,6 @@ header {
   font-style: italic;
   font-size: 25px;
   width: 33.33%;
-  border: solid 1px black;
   text-align: center;
   vertical-align: middle;
   line-height: 210px;
