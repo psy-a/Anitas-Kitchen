@@ -103,7 +103,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 427px;
+  height: 50%;
   width: 100%;
 }
 
@@ -141,6 +141,7 @@ header {
 #brief {
   font-size: 25px;
   color: rgb(59, 57, 57);
+  display: inline-block;
 }
 #gallery {
   color: #f15a29;
@@ -170,7 +171,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 427px;
+  height: 50%;
   width: 100%;
 }
 
@@ -190,7 +191,6 @@ header {
   display: flex;
   flex-direction: column;
   text-align: right;
-  
 }
 #drink1 {
   padding: 20px 0 20px 20px;
@@ -209,6 +209,7 @@ header {
 #dbrief {
   font-size: 25px;
   color: rgb(59, 57, 57);
+  display: block;
 }
 #ddrinks {
   color: #f15a29;
@@ -252,7 +253,6 @@ header {
   width: 60%;
   background-color: white;
   margin: auto;
-  
 }
 .menutabs {
   display: flex;
@@ -268,7 +268,6 @@ header {
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
-  
 }
 #tab2 {
   border: 1px solid black;
@@ -306,17 +305,31 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
   width: 60%;
-  margin: auto;
+  height: 40%;
+  margin: 150px auto 150px auto;
+  border: whitesmoke 2px solid;
+  box-shadow: 5px 5px 5px 5px lightgray;
 }
 .customers {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 66.66%;
 }
 .aboutmenu {
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 33.33%;
+}
+.heads {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
