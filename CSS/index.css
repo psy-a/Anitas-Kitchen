@@ -314,6 +314,12 @@ body {
   align-items: center;
   text-align: center;
   width: 66.66%;
+  padding: 0 30px 30px 60px;
+}
+.vline {
+  border-right: solid 1px gray;
+  height: 200px;
+  margin: 0 20px 0 20px;
 }
 .aboutmenu {
   display: flex;
@@ -322,6 +328,24 @@ body {
   align-items: center;
   text-align: center;
   width: 33.33%;
+  padding: 0 40px 0 20px;
+}
+.about {
+  color: #f15a29;
+  font-size: 25px;
+}
+.abouttext {
+  font-size: 20px;
+}
+.hcust {
+  font-size: xx-large;
+  color: #f15a29;
+}
+.testimonial {
+  font-size: 20px;
+}
+.name {
+  font-size: 22px;
 }
 .heads {
   display: flex;
