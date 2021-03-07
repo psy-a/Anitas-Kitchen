@@ -479,3 +479,7 @@ footer {
 .copyright {
   margin: 10px 0 0 0;
 }
+.fbicon .picon .ticon {
+  height: 39px;
+  width: 39px;
+}
