@@ -483,3 +483,6 @@ footer {
   height: 39px;
   width: 39px;
 }
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
