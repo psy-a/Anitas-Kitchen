@@ -100,30 +100,29 @@ body {
   background-image: url(../Images/foodtop/dinner2.jpg);
 }
 .fastfood {
-  margin-top: 150px;
+  margin: auto;
+  width: 80%;
+  padding: 10% 10% 0 10%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  height: 50%;
-  width: 100%;
 }
 
 .fastimages {
-  height: 100%;
-  width: ;
+  height: 50%;
   display: flex;
   flex-direction: column;
   border: white solid 1px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   box-shadow: 5px 5px 5px 5px lightgray;
-  margin: 0 80px 0 0;
+  margin: 0 70px 0 0;
 }
 .fasttext {
-  height: 100%;
-  width: 600px;
   display: flex;
   flex-direction: column;
-  text-align: left;
+}
+
+.foodtitle {
+  margin: 15px 0 15px 0;
 }
 #fast1 {
   padding: 20px 20px 0 20px;
@@ -147,20 +146,11 @@ body {
 #gallery {
   color: #f15a29;
   border: #f15a29 1px solid;
-  width: 250px;
+  width: 50%;
   height: 50px;
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
-}
-.foodtag {
-  height: 60px;
-}
-.foodtitle {
-  height: 100px;
-}
-.foodbrief {
-  height: 180px;
 }
 #gallery:hover {
   background-color: #f15a29;
@@ -168,30 +158,29 @@ body {
 }
 
 .drinks {
-  margin-top: 150px;
+  width: 80;
+  margin: auto;
+  padding: 10% 10% 0 10%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  height: 50%;
-  width: 100%;
 }
 
 .drinksimages {
-  height: 100%;
-  width: 527px;
+  height: 50%;
   display: flex;
   flex-direction: row;
   border: white solid 1px;
-  box-sizing: content-box;
+  box-sizing: border-box;
   box-shadow: 5px 5px 5px 5px lightgray;
-  margin: 0 0 0 80px;
+  margin: 0 0 0 70px;
 }
 .drinkstext {
-  height: 100%;
-  width: 600px;
   display: flex;
   flex-direction: column;
   text-align: right;
+}
+.drinkstitle {
+  margin: 15px 0 15px 0;
 }
 #drink1 {
   padding: 20px 0 20px 20px;
@@ -212,28 +201,19 @@ body {
   color: rgb(59, 57, 57);
   display: block;
 }
-#ddrinks {
+.viewdrinks {
+  height: 50px;
+  width: 50%;
+  margin-left: auto;
   color: #f15a29;
   border: #f15a29 1px solid;
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
 }
-.drinkstag {
-  height: 60px;
-}
-.drinkstitle {
-  height: 100px;
-}
-.drinksbrief {
-  height: 180px;
-}
-#ddrinks:hover {
+#dgallery:hover {
   background-color: #f15a29;
   color: white;
-}
-.viewdrinks {
-  padding-left: 350px;
 }
 .menuback {
   display: flex;
@@ -296,10 +276,23 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 280px;
   justify-content: space-around;
   text-align: center;
   align-items: center;
   padding: 0 0 20px 0;
+}
+#food1 {
+  width: 100%;
+  height: auto;
+}
+#food2 {
+  width: 100%;
+  height: auto;
+}
+#food3 {
+  width: 100%;
+  height: auto;
 }
 .review {
   display: flex;
@@ -347,4 +340,4 @@ footer {
   background-size: cover;
   width: 100%;
   height: 301px;
- }
+}
