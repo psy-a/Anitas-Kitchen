@@ -244,32 +244,34 @@ body {
   font-size: large;
 }
 #tab1 {
-  border: solid 1px black;
   flex-grow: 1;
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
 }
 #tab2 {
-  border: 1px solid black;
+  border: 1px solid gray;
   flex-grow: 1;
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
+  background-color: lightgray;
 }
 #tab3 {
-  border: 1px solid black;
+  border: 1px solid gray;
   flex-grow: 1;
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
+  background-color: lightgray;
 }
 #tab4 {
-  border: 1px solid black;
+  border: 1px solid gray;
   flex-grow: 1;
   text-align: center;
   vertical-align: middle;
   line-height: 50px;
+  background-color: lightgray;
 }
 .menufoods {
   color: #f15a29;
