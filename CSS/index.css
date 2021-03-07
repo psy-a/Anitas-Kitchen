@@ -143,7 +143,7 @@ body {
   color: rgb(59, 57, 57);
   display: inline-block;
 }
-#gallery {
+.viewgallery {
   color: #f15a29;
   border: #f15a29 1px solid;
   width: 50%;
@@ -152,7 +152,8 @@ body {
   vertical-align: middle;
   line-height: 50px;
 }
-#gallery:hover {
+
+.viewgallery:hover {
   background-color: #f15a29;
   color: white;
 }
@@ -211,7 +212,7 @@ body {
   vertical-align: middle;
   line-height: 50px;
 }
-#dgallery:hover {
+.viewdrinks:hover {
   background-color: #f15a29;
   color: white;
 }
@@ -410,4 +411,34 @@ footer {
   background-size: cover;
   width: 100%;
   height: 301px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subtext {
+  color: white;
+  font-size: 40px;
+}
+.enteremail {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+.email {
+  flex-grow: 2;
+  color: white;
+  font-size: 20px;
+  background-color: lightgray;
+  margin: 0 20px 0 0;
+}
+.subbutton {
+  flex-grow: 1;
+  color: white;
+  background-color: #f15a29;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 0 0 20px;
 }
