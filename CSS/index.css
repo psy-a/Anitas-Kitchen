@@ -434,6 +434,9 @@ footer {
   background-color: lightgray;
   margin: 0 20px 0 0;
 }
+#email {
+  padding: 0 0 0 15px;
+}
 .subbutton {
   flex-grow: 1;
   color: white;
@@ -441,4 +444,38 @@ footer {
   font-size: 20px;
   text-align: center;
   margin: 0 0 0 20px;
+}
+.footerflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px 50px 50px;
+}
+.micon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icontext {
+  color: white;
+  margin: 0 0 0 15px;
+  font-size: 50px;
+}
+.ftag {
+  color: white;
+  font-size: 25px;
+  margin: 15px 0 20px 0;
+}
+.copyright {
+  color: white;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 30px 0;
+}
+.copyright {
+  margin: 10px 0 0 0;
 }
