@@ -284,6 +284,28 @@ body {
   align-items: center;
   padding: 0 0 20px 0;
 }
+.leftarrow {
+  margin: 0 0 10px 10px;
+}
+.rightarrow {
+  margin: 0 10px 10px 0;
+}
+.left {
+  border: solid #f15a29;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 0 0 20px 20px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.right {
+  border: solid #f15a29;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 0 0 20px 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
 #food1 {
   width: 100%;
   height: auto;
@@ -352,6 +374,28 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.lefthead {
+  border: solid #f15a29;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 0 0 10px 10px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.righthead {
+  border: solid #f15a29;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 0 0 10px 10px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.leftarrowhead {
+  margin: 0 10px 0 0;
+}
+.rightarrowhead {
+  margin: 0 0 0 10px;
 }
 
 footer {
